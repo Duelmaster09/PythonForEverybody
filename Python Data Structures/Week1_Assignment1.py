@@ -2,5 +2,5 @@
 Convert the extracted value to a floating point number and print it out. '''
 
 text = "X-DSPAM-Confidence:    0.8475"
-number=float(text[text.find('0'):])
+number=float(text[text.find(':')+1:].strip())
 print(number)
