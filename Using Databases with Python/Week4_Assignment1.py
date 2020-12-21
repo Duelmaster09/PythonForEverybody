@@ -1,3 +1,9 @@
+'''This application will read roster data in JSON format, parse the file, and then produce an SQLite database that contains a User, Course, and Member table and 
+populate the tables from the data file.
+You can base your solution on this code: http://www.py4e.com/code3/roster/roster.py - 
+this code is incomplete as you need to modify the program to store the role column in the Member table to complete the assignment.
+Each student gets their own file for the assignment. Download this file and save it as roster_data.json. Move the downloaded file into the same folder as your roster.py program.'''
+
 import sqlite3
 import json
 
